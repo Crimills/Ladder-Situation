@@ -12,19 +12,19 @@
 }
 
 #instagram {
-    position: fixed;
-    left: 90%;
-    bottom: 93%;
+    position: relative;
+    left: 78.5%;
+    bottom: 10%;
 }
 
 #imdb {
-    position: fixed;
-    left: 93%;
-    bottom: 93%;
+    position: relative;
+    left: 78.5%;
+    bottom: 10%;
 }
 
 #linkedin {
-    position: fixed;
-    left: 87%;
-    bottom: 93%;
+    position: relative;
+    left: 69.3%;
+    bottom: 10%;
 }
