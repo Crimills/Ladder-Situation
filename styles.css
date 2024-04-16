@@ -143,12 +143,10 @@
 @media only screen and (max-width: 600px) and (orientation: portrait) {
     #title {
         scale: 80%;
-        top: 5%;
     }
     #links {
         scale: 80%;
         left: 55%;
-        top: 5%;
         width: 50%
     }
     #den {
