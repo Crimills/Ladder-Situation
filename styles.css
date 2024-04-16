@@ -9,30 +9,57 @@
     height: 9%;
     background: black;
     border: 1px solid;
+    border-color: yellow;
 }
 
 #title {
-    position: fixed;
+    height: 100%;
+    width: 11%;
+    position: relative;
     left: 5%;
-    bottom: 92%;
+    bottom: 0px;
+    border: 1px solid;
+    border-color: yellow;
+}
+
+#links {
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    left: 85%;
+    bottom: 0%;
+    border: 1px solid;
+    border-color: yellow;
 }
 
 #instagram {
-    position: fixed;
-    left: 88%;
-    bottom: 93%;
+    height: 50%;
+    width: 8%;
+    border: 1px solid;
+    border-color: yellow;
+    position: relative;
+    left: 0%;
+    top: 50%;
 }
 
 #imdb {
-    position: fixed;
-    left: 91%;
-    bottom: 93%;
+    width: 15%;
+    height: 50%;
+    border: 1px solid;
+    border-color: yellow;
+    position: relative;
+    left: 50%;
+    top: -2%;
 }
 
 #linkedin {
-    position: fixed;
-    left: 85%;
-    bottom: 93%;
+    height: 50%;
+    width: 8%;
+    border: 1px solid;
+    border-color: yellow;
+    position: relative;
+    left: 25%;
+    bottom: 55%;
 }
 
 #den {
@@ -108,86 +135,89 @@
     margin-right: 50%;
 }
 
-@media (max-width: 600px) {
-    #instagram {
-        position: fixed;
-        width: 8%;
-        left: 71%;
-        bottom: 93%;
-    }
-    #imdb {
-        position: fixed;
-        width: 16%;
-        left: 82%;
-        bottom: 93%;
-    }
-    #linkedin {
-        position: fixed;
-        width: 8%;
-        left: 60%;
-        bottom: 93%;
-    }
+#video {
+    position: absolute;
+    top: 150%;
+}
+
+@media only screen and (max-width: 600px) and (orientation: portrait) {
     #title {
-        position: fixed;
-        left: 5%;
-        bottom: 92%;
+        scale: 80%;
+        top: 5%;
+    }
+    #links {
+        scale: 80%;
+        left: 55%;
+        top: 5%;
+        width: 50%
     }
     #den {
         width: 100%;
+        top: 10%;
     }
     #showdown {
         margin-top: -15%;
     }
     #jp {
         position: absolute;
-        top: 60%;
+        top: 70%;
         left: -10%;
         scale: 50%;
     }
     #damion {
         position: absolute;
-        top: 80%;
+        top: 90%;
         left: -10%;
         scale: 50%;
     }
     #joel {
         position: absolute;
-        top: 100%;
+        top: 110%;
         left: -10%;
         scale: 50%;
     }
     #bo {
         position: absolute;
-        top: 120%;
+        top: 130%;
         left: -10%;
         scale: 50%;
     }
     #jpDescription {
         position: absolute;
         scale: 50%;
-        top: 63%;
+        top: 73%;
         left: 18%;
         margin-right: -20%;
     }
     #damionDescription {
         position: absolute;
         scale: 50%;
-        top: 84%;
+        top: 94%;
         left: 18%;
         margin-right: -20%;
     }
     #joelDescription {
         position: absolute;
         scale: 50%;
-        top: 104%;
+        top: 114%;
         left: 18%;
         margin-right: -20%;
     }
     #boDescription {
         position: absolute;
         scale: 50%;
-        top: 124%;
+        top: 134%;
         left: 18%;
         margin-right: -20%;
     }
 }
+
+@media only screen and (max-width: 600px) and (orientation: landscape) {}
+
+@media only screen and (min-width: 601px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}
