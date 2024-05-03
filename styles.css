@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 .navbar {
@@ -20,7 +21,6 @@
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
     margin: 0 auto;
     padding: 0 50px;
 }
@@ -31,7 +31,105 @@
 }
 
 .titleCard {
+    position: relative;
+}
+
+#DamionDen {
     width: 100%;
+    display: block;
+}
+
+.faceOff {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#faceOffBackground {
+    position: relative;
+    width: 250%;
+}
+
+.jpGroup {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 100%;
+    border: 1px red solid;
+}
+
+#jpHeadshot {
+    width: 30%;
+}
+
+#jpText {
+    position: absolute;
+    text-align: left;
+    top: 22%;
+    left: 45%;
+    margin-right: 15%;
+}
+
+.damionGroup {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 100%;
+    border: 1px red solid;
+}
+
+#damionHeadshot {
+    width: 30%;
+}
+
+#damionText {
+    position: absolute;
+    text-align: left;
+    top: 22%;
+    left: 45%;
+    margin-right: 15%;
+}
+
+.joelGroup {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    width: 100%;
+    border: 1px red solid;
+}
+
+#joelHeadshot {
+    width: 30%;
+}
+
+#joelText {
+    position: absolute;
+    text-align: left;
+    top: 22%;
+    left: 45%;
+    margin-right: 15%;
+}
+
+.boGroup {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 100%;
+    border: 1px red solid;
+}
+
+#boHeadshot {
+    width: 30%;
+}
+
+#boText {
+    position: absolute;
+    text-align: left;
+    top: 22%;
+    left: 45%;
+    margin-right: 15%;
 }
 
 @media only screen and (max-width: 600px) and (orientation: portrait) {}
