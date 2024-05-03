@@ -55,7 +55,7 @@
 .jpGroup {
     position: absolute;
     top: 5%;
-    left: 10%;
+    left: 5%;
     width: 100%;
     border: 1px red solid;
 }
@@ -67,15 +67,15 @@
 #jpText {
     position: absolute;
     text-align: left;
-    top: 22%;
+    top: 0;
     left: 45%;
-    margin-right: 15%;
+    margin-right: 10%;
 }
 
 .damionGroup {
     position: absolute;
     top: 30%;
-    left: 10%;
+    left: 5%;
     width: 100%;
     border: 1px red solid;
 }
@@ -87,15 +87,15 @@
 #damionText {
     position: absolute;
     text-align: left;
-    top: 22%;
+    top: 0;
     left: 45%;
-    margin-right: 15%;
+    margin-right: 10%;
 }
 
 .joelGroup {
     position: absolute;
     top: 55%;
-    left: 10%;
+    left: 5%;
     width: 100%;
     border: 1px red solid;
 }
@@ -107,15 +107,15 @@
 #joelText {
     position: absolute;
     text-align: left;
-    top: 22%;
+    top: 0;
     left: 45%;
-    margin-right: 15%;
+    margin-right: 10%;
 }
 
 .boGroup {
     position: absolute;
     top: 80%;
-    left: 10%;
+    left: 5%;
     width: 100%;
     border: 1px red solid;
 }
@@ -127,9 +127,9 @@
 #boText {
     position: absolute;
     text-align: left;
-    top: 22%;
+    top: 0;
     left: 45%;
-    margin-right: 15%;
+    margin-right: 10%;
 }
 
 @media only screen and (max-width: 600px) and (orientation: portrait) {}
