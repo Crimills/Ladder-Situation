@@ -167,7 +167,7 @@ body {
     #jpText {
         position: absolute;
         text-align: left;
-        top: 0;
+        top: 40%;
         left: 35%;
         margin-right: 5%;
     }
@@ -183,7 +183,7 @@ body {
     #damionText {
         position: absolute;
         text-align: left;
-        top: 0;
+        top: 40%;
         left: 35%;
         margin-right: 5%;
     }
@@ -199,7 +199,7 @@ body {
     #joelText {
         position: absolute;
         text-align: left;
-        top: 0;
+        top: 40%;
         left: 35%;
         margin-right: 5%;
     }
@@ -215,7 +215,7 @@ body {
     #boText {
         position: absolute;
         text-align: left;
-        top: 0;
+        top: 40%;
         left: 35%;
         margin-right: 5%;
     }
