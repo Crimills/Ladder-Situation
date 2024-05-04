@@ -139,9 +139,19 @@ body {
 
 .carosoul {
     position: relative;
-    top: 110%;
     width: 100%;
-    height: 140%;
+    justify-content: center;
+}
+
+#laurelText {
+    position: relative;
+    text-align: center;
+}
+
+#laurel {
+    width: 30%;
+    display: block;
+    margin: auto;
 }
 
 @media only screen and (max-width: 600px) and (orientation: portrait) {}
