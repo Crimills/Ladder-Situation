@@ -132,11 +132,6 @@ body {
     margin-right: 5%;
 }
 
-.trailer {
-    position: relative;
-    margin-top: 50%;
-}
-
 .carosoul {
     position: relative;
     width: 100%;
@@ -152,6 +147,11 @@ body {
     width: 30%;
     display: block;
     margin: auto;
+}
+
+.trailer {
+    position: relative;
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px) and (orientation: portrait) {}
