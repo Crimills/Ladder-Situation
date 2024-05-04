@@ -57,7 +57,6 @@
     top: 5%;
     left: 5%;
     width: 100%;
-    border: 1px red solid;
 }
 
 #jpHeadshot {
@@ -68,7 +67,7 @@
     position: absolute;
     text-align: left;
     top: 0;
-    left: 45%;
+    left: 35%;
     margin-right: 10%;
 }
 
@@ -77,7 +76,6 @@
     top: 30%;
     left: 5%;
     width: 100%;
-    border: 1px red solid;
 }
 
 #damionHeadshot {
@@ -88,7 +86,7 @@
     position: absolute;
     text-align: left;
     top: 0;
-    left: 45%;
+    left: 35%;
     margin-right: 10%;
 }
 
@@ -97,7 +95,6 @@
     top: 55%;
     left: 5%;
     width: 100%;
-    border: 1px red solid;
 }
 
 #joelHeadshot {
@@ -108,7 +105,7 @@
     position: absolute;
     text-align: left;
     top: 0;
-    left: 45%;
+    left: 35%;
     margin-right: 10%;
 }
 
@@ -117,7 +114,6 @@
     top: 80%;
     left: 5%;
     width: 100%;
-    border: 1px red solid;
 }
 
 #boHeadshot {
@@ -128,7 +124,7 @@
     position: absolute;
     text-align: left;
     top: 0;
-    left: 45%;
+    left: 35%;
     margin-right: 10%;
 }
 
