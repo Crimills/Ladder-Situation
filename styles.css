@@ -54,6 +54,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     color: rgb(235, 235, 15);
+    font-size: 14px;
 }
 
 .faceOff {
@@ -86,7 +87,7 @@ body {
     top: 0;
     left: 35%;
     margin-right: 5%;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .damionGroup {
@@ -106,7 +107,7 @@ body {
     top: 0;
     left: 35%;
     margin-right: 5%;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .joelGroup {
@@ -126,7 +127,7 @@ body {
     top: 0;
     left: 35%;
     margin-right: 5%;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .boGroup {
@@ -146,7 +147,7 @@ body {
     top: 0;
     left: 35%;
     margin-right: 5%;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .company {
@@ -158,6 +159,7 @@ body {
 #company {
     margin-left: 20%;
     margin-right: 10%;
+    font-size: 14px;
 }
 
 .carosoul {
@@ -226,6 +228,7 @@ body {
         margin-left: 35%;
         margin-right: 10%;
         text-align: left;
+        font-size: 18px;
     }
     .jpGroup {
         position: absolute;
@@ -298,6 +301,7 @@ body {
     #company {
         margin-left: 43%;
         margin-right: 10%;
+        font-size: 18px;
     }
     #b br {
         display: none;
