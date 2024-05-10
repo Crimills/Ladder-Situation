@@ -218,6 +218,12 @@ body {
     margin-right: 10%;
 }
 
+#contact {
+    position: relative;
+    top: 10%;
+    right: 10%;
+}
+
 #contactWord2 {
     font-size: 14px;
 }
