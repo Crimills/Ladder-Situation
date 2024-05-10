@@ -218,6 +218,7 @@ body {
 
 #copyrightText {
     text-align: center;
+    font-size: 14px;
 }
 
 @media only screen and (min-width: 992px) {
@@ -303,5 +304,8 @@ body {
     }
     #contactWord2 {
         font-size: 25px;
+    }
+    #copyrightText {
+        font-size: 18px;
     }
 }
