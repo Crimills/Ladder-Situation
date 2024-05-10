@@ -43,6 +43,19 @@ body {
     display: block;
 }
 
+.synopsis {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    background-color: maroon;
+}
+
+#synopsis {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(235, 235, 15);
+}
+
 .faceOff {
     position: relative;
     width: 100%;
@@ -154,7 +167,45 @@ body {
     width: 100%;
 }
 
+.footer {
+    background: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+#hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#copyrightText {
+    text-align: center;
+}
+
 @media only screen and (min-width: 992px) {
+    #synopsis {
+        margin-left: 35%;
+        margin-right: 10%;
+        text-align: left;
+    }
     .jpGroup {
         position: absolute;
         top: 2%;
@@ -218,5 +269,11 @@ body {
         top: 40%;
         left: 35%;
         margin-right: 5%;
+    }
+    #b br {
+        display: none;
+    }
+    #contactWord2 {
+        font-size: 25px;
     }
 }
