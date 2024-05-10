@@ -218,6 +218,14 @@ body {
     margin-right: 10%;
 }
 
+#contactWord2 {
+    font-size: 14px;
+}
+
+#email {
+    font-size: 11px;
+}
+
 #copyrightText {
     text-align: center;
     font-size: 12px;
