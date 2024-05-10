@@ -149,6 +149,17 @@ body {
     font-size: 12px;
 }
 
+.company {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
+
+#company {
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
 .carosoul {
     position: relative;
     width: 100%;
@@ -158,6 +169,11 @@ body {
 #laurelText {
     position: relative;
     text-align: center;
+}
+
+#laurels {
+    display: flex;
+    justify-content: space-between;
 }
 
 #laurel {
@@ -277,6 +293,10 @@ body {
         left: 35%;
         margin-right: 5%;
         font-size: 18px;
+    }
+    #company {
+        margin-left: 43%;
+        margin-right: 10%;
     }
     #b br {
         display: none;
