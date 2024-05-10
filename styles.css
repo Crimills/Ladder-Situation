@@ -323,6 +323,9 @@ body {
     #contactWord2 {
         font-size: 25px;
     }
+    #email {
+        font-size: 15px;
+    }
     #copyrightText {
         font-size: 18px;
     }
